@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CBAFCCC232C35630053E843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAFCCB232C35630053E843 /* AppDelegate.swift */; };
+		4CBAFCCE232C35630053E843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAFCCD232C35630053E843 /* ViewController.swift */; };
+		4CBAFCD1232C35630053E843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBAFCCF232C35630053E843 /* Main.storyboard */; };
+		4CBAFCD3232C35640053E843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBAFCD2232C35640053E843 /* Assets.xcassets */; };
+		4CBAFCD6232C35640053E843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CBAFCD4232C35640053E843 /* LaunchScreen.storyboard */; };
+		4CBAFCE1232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAFCE0232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsTests.swift */; };
+		4CBAFCEC232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAFCEB232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CBAFCDD232C35650053E843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBAFCC0232C35630053E843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBAFCC7232C35630053E843;
+			remoteInfo = "Programmtic Auto Layout Constraints";
+		};
+		4CBAFCE8232C35650053E843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CBAFCC0232C35630053E843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CBAFCC7232C35630053E843;
+			remoteInfo = "Programmtic Auto Layout Constraints";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CBAFCC8232C35630053E843 /* Programmtic Auto Layout Constraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmtic Auto Layout Constraints.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBAFCCB232C35630053E843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CBAFCCD232C35630053E843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CBAFCD0232C35630053E843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CBAFCD2232C35640053E843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CBAFCD5232C35640053E843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CBAFCD7232C35640053E843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBAFCDC232C35650053E843 /* Programmtic Auto Layout ConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmtic Auto Layout ConstraintsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBAFCE0232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmtic_Auto_Layout_ConstraintsTests.swift; sourceTree = "<group>"; };
+		4CBAFCE2232C35650053E843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBAFCE7232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmtic Auto Layout ConstraintsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBAFCEB232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmtic_Auto_Layout_ConstraintsUITests.swift; sourceTree = "<group>"; };
+		4CBAFCED232C35650053E843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CBAFCC5232C35630053E843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBAFCD9232C35650053E843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBAFCE4232C35650053E843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CBAFCBF232C35630053E843 = {
+			isa = PBXGroup;
+			children = (
+				4CBAFCCA232C35630053E843 /* Programmtic Auto Layout Constraints */,
+				4CBAFCDF232C35650053E843 /* Programmtic Auto Layout ConstraintsTests */,
+				4CBAFCEA232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests */,
+				4CBAFCC9232C35630053E843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CBAFCC9232C35630053E843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CBAFCC8232C35630053E843 /* Programmtic Auto Layout Constraints.app */,
+				4CBAFCDC232C35650053E843 /* Programmtic Auto Layout ConstraintsTests.xctest */,
+				4CBAFCE7232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CBAFCCA232C35630053E843 /* Programmtic Auto Layout Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				4CBAFCCB232C35630053E843 /* AppDelegate.swift */,
+				4CBAFCCD232C35630053E843 /* ViewController.swift */,
+				4CBAFCCF232C35630053E843 /* Main.storyboard */,
+				4CBAFCD2232C35640053E843 /* Assets.xcassets */,
+				4CBAFCD4232C35640053E843 /* LaunchScreen.storyboard */,
+				4CBAFCD7232C35640053E843 /* Info.plist */,
+			);
+			path = "Programmtic Auto Layout Constraints";
+			sourceTree = "<group>";
+		};
+		4CBAFCDF232C35650053E843 /* Programmtic Auto Layout ConstraintsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBAFCE0232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsTests.swift */,
+				4CBAFCE2232C35650053E843 /* Info.plist */,
+			);
+			path = "Programmtic Auto Layout ConstraintsTests";
+			sourceTree = "<group>";
+		};
+		4CBAFCEA232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBAFCEB232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsUITests.swift */,
+				4CBAFCED232C35650053E843 /* Info.plist */,
+			);
+			path = "Programmtic Auto Layout ConstraintsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CBAFCC7232C35630053E843 /* Programmtic Auto Layout Constraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBAFCF0232C35650053E843 /* Build configuration list for PBXNativeTarget "Programmtic Auto Layout Constraints" */;
+			buildPhases = (
+				4CBAFCC4232C35630053E843 /* Sources */,
+				4CBAFCC5232C35630053E843 /* Frameworks */,
+				4CBAFCC6232C35630053E843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Programmtic Auto Layout Constraints";
+			productName = "Programmtic Auto Layout Constraints";
+			productReference = 4CBAFCC8232C35630053E843 /* Programmtic Auto Layout Constraints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CBAFCDB232C35650053E843 /* Programmtic Auto Layout ConstraintsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBAFCF3232C35650053E843 /* Build configuration list for PBXNativeTarget "Programmtic Auto Layout ConstraintsTests" */;
+			buildPhases = (
+				4CBAFCD8232C35650053E843 /* Sources */,
+				4CBAFCD9232C35650053E843 /* Frameworks */,
+				4CBAFCDA232C35650053E843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBAFCDE232C35650053E843 /* PBXTargetDependency */,
+			);
+			name = "Programmtic Auto Layout ConstraintsTests";
+			productName = "Programmtic Auto Layout ConstraintsTests";
+			productReference = 4CBAFCDC232C35650053E843 /* Programmtic Auto Layout ConstraintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CBAFCE6232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBAFCF6232C35650053E843 /* Build configuration list for PBXNativeTarget "Programmtic Auto Layout ConstraintsUITests" */;
+			buildPhases = (
+				4CBAFCE3232C35650053E843 /* Sources */,
+				4CBAFCE4232C35650053E843 /* Frameworks */,
+				4CBAFCE5232C35650053E843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CBAFCE9232C35650053E843 /* PBXTargetDependency */,
+			);
+			name = "Programmtic Auto Layout ConstraintsUITests";
+			productName = "Programmtic Auto Layout ConstraintsUITests";
+			productReference = 4CBAFCE7232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CBAFCC0232C35630053E843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Brian Robinson";
+				TargetAttributes = {
+					4CBAFCC7232C35630053E843 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4CBAFCDB232C35650053E843 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4CBAFCC7232C35630053E843;
+					};
+					4CBAFCE6232C35650053E843 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4CBAFCC7232C35630053E843;
+					};
+				};
+			};
+			buildConfigurationList = 4CBAFCC3232C35630053E843 /* Build configuration list for PBXProject "Programmtic Auto Layout Constraints" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CBAFCBF232C35630053E843;
+			productRefGroup = 4CBAFCC9232C35630053E843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CBAFCC7232C35630053E843 /* Programmtic Auto Layout Constraints */,
+				4CBAFCDB232C35650053E843 /* Programmtic Auto Layout ConstraintsTests */,
+				4CBAFCE6232C35650053E843 /* Programmtic Auto Layout ConstraintsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CBAFCC6232C35630053E843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBAFCD6232C35640053E843 /* LaunchScreen.storyboard in Resources */,
+				4CBAFCD3232C35640053E843 /* Assets.xcassets in Resources */,
+				4CBAFCD1232C35630053E843 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBAFCDA232C35650053E843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBAFCE5232C35650053E843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CBAFCC4232C35630053E843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBAFCCE232C35630053E843 /* ViewController.swift in Sources */,
+				4CBAFCCC232C35630053E843 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBAFCD8232C35650053E843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBAFCE1232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CBAFCE3232C35650053E843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBAFCEC232C35650053E843 /* Programmtic_Auto_Layout_ConstraintsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CBAFCDE232C35650053E843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBAFCC7232C35630053E843 /* Programmtic Auto Layout Constraints */;
+			targetProxy = 4CBAFCDD232C35650053E843 /* PBXContainerItemProxy */;
+		};
+		4CBAFCE9232C35650053E843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CBAFCC7232C35630053E843 /* Programmtic Auto Layout Constraints */;
+			targetProxy = 4CBAFCE8232C35650053E843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CBAFCCF232C35630053E843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBAFCD0232C35630053E843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CBAFCD4232C35640053E843 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CBAFCD5232C35640053E843 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CBAFCEE232C35650053E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CBAFCEF232C35650053E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBAFCF1232C35650053E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QE4V2DLSE5;
+				INFOPLIST_FILE = "Programmtic Auto Layout Constraints/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Robinson.Programmtic-Auto-Layout-Constraints";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CBAFCF2232C35650053E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QE4V2DLSE5;
+				INFOPLIST_FILE = "Programmtic Auto Layout Constraints/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Robinson.Programmtic-Auto-Layout-Constraints";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CBAFCF4232C35650053E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QE4V2DLSE5;
+				INFOPLIST_FILE = "Programmtic Auto Layout ConstraintsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Robinson.Programmtic-Auto-Layout-ConstraintsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Programmtic Auto Layout Constraints.app/Programmtic Auto Layout Constraints";
+			};
+			name = Debug;
+		};
+		4CBAFCF5232C35650053E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QE4V2DLSE5;
+				INFOPLIST_FILE = "Programmtic Auto Layout ConstraintsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Robinson.Programmtic-Auto-Layout-ConstraintsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Programmtic Auto Layout Constraints.app/Programmtic Auto Layout Constraints";
+			};
+			name = Release;
+		};
+		4CBAFCF7232C35650053E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QE4V2DLSE5;
+				INFOPLIST_FILE = "Programmtic Auto Layout ConstraintsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Robinson.Programmtic-Auto-Layout-ConstraintsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Programmtic Auto Layout Constraints";
+			};
+			name = Debug;
+		};
+		4CBAFCF8232C35650053E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QE4V2DLSE5;
+				INFOPLIST_FILE = "Programmtic Auto Layout ConstraintsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brian-Robinson.Programmtic-Auto-Layout-ConstraintsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Programmtic Auto Layout Constraints";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CBAFCC3232C35630053E843 /* Build configuration list for PBXProject "Programmtic Auto Layout Constraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBAFCEE232C35650053E843 /* Debug */,
+				4CBAFCEF232C35650053E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBAFCF0232C35650053E843 /* Build configuration list for PBXNativeTarget "Programmtic Auto Layout Constraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBAFCF1232C35650053E843 /* Debug */,
+				4CBAFCF2232C35650053E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBAFCF3232C35650053E843 /* Build configuration list for PBXNativeTarget "Programmtic Auto Layout ConstraintsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBAFCF4232C35650053E843 /* Debug */,
+				4CBAFCF5232C35650053E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBAFCF6232C35650053E843 /* Build configuration list for PBXNativeTarget "Programmtic Auto Layout ConstraintsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBAFCF7232C35650053E843 /* Debug */,
+				4CBAFCF8232C35650053E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CBAFCC0232C35630053E843 /* Project object */;
+}
